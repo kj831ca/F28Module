@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<F28Config>
+  <Sensors>
+    <Sensor ipAddress="192.168.1.200" groupid="1" timeout="3" />
+  </Sensors>
+  <Settings name="TestConfig1">
+    <Parameter property_name="usTypeTest" value="0" type="ushort" />
+    <Parameter property_name="usTpsFillVol" value="100" type="ushort" />
+    <Parameter property_name="usTpsTransfert" value="100" type="ushort" />
+    <Parameter property_name="usTpsFill" value="100" type="ushort" />
+    <Parameter property_name="usTpsStab" value="100" type="ushort" />
+    <Parameter property_name="usTpsTest" value="100" type="ushort" />
+    <Parameter property_name="usTpsDump" value="100" type="ushort" />
+    <Parameter property_name="usPress1Unit" value="0" type="ushort" />
+    <Parameter property_name="fPress1Min" value="1000" type="float" />
+    <Parameter property_name="fPress1Max" value="1000" type="float" />
+    <Parameter property_name="fSetFillP1" value="1000" type="float" />
+    <Parameter property_name="fRatioMax" value="1000" type="float" />
+    <Parameter property_name="fRatioMin" value="1000" type="float" />
+    <Parameter property_name="usFillMode" value="0" type="ushort" />
+    <Parameter property_name="usLeakUnit" value="0" type="ushort" />
+    <Parameter property_name="usRejectCalc" value="0" type="ushort" />
+    <Parameter property_name="usVolumeUnit" value="0" type="ushort" />
+    <Parameter property_name="fVolume" value="1000" type="float" />
+    <Parameter property_name="fRejectMin" value="1000" type="float" />
+    <Parameter property_name="fRejectMax" value="1000" type="float" />
+    <Parameter property_name="fCoeffAutoFill" value="1000" type="float" />
+    <Parameter property_name="usOptions" value="0" type="ushort" />
+    <Parameter property_name="fPatmSTD" value="1000" type="float" />
+    <Parameter property_name="fTempSTD" value="1000" type="float" />
+    <Parameter property_name="fFilterTime" value="1000" type="float" />
+    <Parameter property_name="fOffsetLeak" value="1000" type="float" />
+  </Settings>
+  <Settings name="mynewParam">
+    <Parameter property_name="usTypeTest" value="1" type="ushort" />
+    <Parameter property_name="usTpsFillVol" value="100" type="ushort" />
+    <Parameter property_name="usTpsTransfert" value="100" type="ushort" />
+    <Parameter property_name="usTpsFill" value="100" type="ushort" />
+    <Parameter property_name="usTpsStab" value="200" type="ushort" />
+    <Parameter property_name="usTpsTest" value="200" type="ushort" />
+    <Parameter property_name="usTpsDump" value="100" type="ushort" />
+    <Parameter property_name="usPress1Unit" value="4" type="ushort" />
+    <Parameter property_name="fPress1Min" value="-2000" type="float" />
+    <Parameter property_name="fPress1Max" value="200000" type="float" />
+    <Parameter property_name="fSetFillP1" value="0" type="float" />
+    <Parameter property_name="fRatioMax" value="0" type="float" />
+    <Parameter property_name="fRatioMin" value="0" type="float" />
+    <Parameter property_name="usFillMode" value="0" type="ushort" />
+    <Parameter property_name="usLeakUnit" value="24" type="ushort" />
+    <Parameter property_name="usRejectCalc" value="1" type="ushort" />
+    <Parameter property_name="usVolumeUnit" value="0" type="ushort" />
+    <Parameter property_name="fVolume" value="15" type="float" />
+    <Parameter property_name="fRejectMin" value="0" type="float" />
+    <Parameter property_name="fRejectMax" value="10" type="float" />
+    <Parameter property_name="fCoeffAutoFill" value="0" type="float" />
+    <Parameter property_name="usOptions" value="0" type="ushort" />
+    <Parameter property_name="fPatmSTD" value="1013" type="float" />
+    <Parameter property_name="fTempSTD" value="0" type="float" />
+    <Parameter property_name="fFilterTime" value="0" type="float" />
+    <Parameter property_name="fOffsetLeak" value="0" type="float" />
+  </Settings>
+</F28Config>
